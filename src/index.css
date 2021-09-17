@@ -35,3 +35,18 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+/* Blog preview / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 2px 3px 2px #e48ee7;
+}
+.blog-preview h2 {
+  font-size: 1.5rem;
+  color: #c31cc8;
+  margin-bottom: 8px;
+}
