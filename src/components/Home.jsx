@@ -11,8 +11,8 @@ const Home = () => {
       .then((response) => {
         return response.json();
       })
-      .then((database) => {
-        setBlogs(database);
+      .then((data) => {
+        setBlogs(data);
       });
   }, []);
 
