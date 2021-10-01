@@ -1,0 +1,22 @@
+{
+    "blogs": [
+    { 
+        "title": "First post", 
+        "body": "Lorem ipsum", 
+        "author": "Yulianny", 
+        "id": 1 
+    },
+    { 
+        "title": "Second post", 
+        "body": "Lorem ipsum", 
+        "author": "Yulianny", 
+        "id": 2 
+    },
+    { 
+        "title": "Thirty post", 
+        "body": "Lorem ipsum", 
+        "author": "Yulianny B", 
+        "id": 3 
+    }
+    ]
+}
