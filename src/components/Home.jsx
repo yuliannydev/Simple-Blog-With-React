@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import BlogList from "./BlogList";
 
 const Home = () => {
+<<<<<<< HEAD
   /** HOOKS USE STATE */
   const [blogs, setBlogs] = useState([
     { title: "First post", body: "Lorem ipsum", author: "Yulianny", id: 1 },
@@ -10,6 +11,20 @@ const Home = () => {
   ]);
 
   const [name, setName] = useState(" 🐣 ");
+=======
+    const [blogs, setBlogs] = useState([
+        {title: 'First post', body: 'Lorem ipsum' , author: 'Yulianny', id: 1},
+        {title: 'Second post', body: 'Lorem ipsum' , author: 'Yulianny', id: 1},
+        {title: 'Thirty post', body: 'Lorem ipsum' , author: 'Yulianny B', id: 1},
+    ])
+
+    return (
+        <div className="home">
+            <BlogList blogs={blogs}/>
+        </div>
+    )
+}
+>>>>>>> parent of 283acf9 (:construction: Create handleDelete post)
 
   useEffect(() => {
     console.log(name);
