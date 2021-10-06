@@ -1,17 +1,24 @@
-const Navbar = () => {
-    return (
-        <nav className="navbar">
-            <h1>Simple Blog</h1>
-            <div className="links">
-                <a href="/">Home</a>
-                <a href="/create" style={{
-                    color: "white",
-                    backgroundColor: "#00ae42",
-                    borderRadius: "9px"
-                }}>New Post</a>
-            </div>
-        </nav>
-    )
-}
+import { Link } from "react-router-dom";
 
-export default Navbar
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <h1>Simple Blog</h1>
+      <div className="links">
+        <Link to="/">Home</Link>
+        <Link
+          to="/create"
+          style={{
+            color: "white",
+            backgroundColor: "#00ae42",
+            borderRadius: "9px",
+          }}
+        >
+          New Post
+        </Link>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
