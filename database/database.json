@@ -1,28 +1,22 @@
 {
   "blogs": [
     {
-      "title": "First post",
-      "body": "Lorem ipsum",
-      "author": "Yulianny",
-      "id": 1
-    },
-    {
-      "title": "Second post",
-      "body": "Lorem ipsum",
-      "author": "Yulianny",
-      "id": 2
-    },
-    {
-      "title": "Thirty post",
-      "body": "Lorem ipsum",
-      "author": "Yulianny B",
-      "id": 3
-    },
-    {
-      "title": "Lorem ipsum",
-      "body": "Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. ",
+      "title": "Nuevo post ",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "author": "Constribuidor(a)",
-      "id": 4
+      "id": 5
+    },
+    {
+      "title": "Holiiii",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "author": "Yulianny Betancourt",
+      "id": 6
+    },
+    {
+      "title": "Where does it come from?",
+      "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+      "author": "Yulianny Betancourt",
+      "id": 7
     }
   ]
 }
