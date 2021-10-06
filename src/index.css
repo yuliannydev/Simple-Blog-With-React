@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 /* base styles */
 * {
@@ -49,4 +49,7 @@
   font-size: 1.5rem;
   color: #c31cc8;
   margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
 }
