@@ -12,7 +12,7 @@ const BlogList = ({ blogs, title }) => {
               Escrito por <em>{blog.author}</em>
             </p>
             <div>
-              <p>{blog.body}</p>
+              <p className="blog-preview-content">{blog.body}</p>
             </div>
           </Link>
         </div>

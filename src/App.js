@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./components/Create";
 import BlogDetails from "./components/BlogDetails";
+import PageNotFound from "./components/PageNotFound";
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            <Route path="*">
+              <PageNotFound />
             </Route>
           </Switch>
         </div>

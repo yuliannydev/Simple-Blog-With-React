@@ -20,7 +20,6 @@
   color: #c31cc8;
 }
 .navbar .links {
-  margin-left: auto;
 }
 .navbar a {
   margin-left: 16px;
@@ -66,6 +65,10 @@
 .blog-list h1 {
   text-align: center;
 }
+.blog-preview .blog-preview-content {
+  text-align: justify;
+  line-height: 1.4em;
+}
 /* blog details page*/
 .blog-details {
   padding: 15px;
@@ -83,7 +86,8 @@
 }
 .blog-details div {
   margin: 20px 0;
-  line-height: 2em;
+  line-height: 1.7em;
+  text-align: justify;
 }
 .blog-details article .writer {
   border-bottom: 1px solid #f2f2f2;
@@ -146,4 +150,26 @@
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
+}
+
+.page-not-found {
+  padding: 20px auto;
+  margin: 40px auto;
+}
+
+@media (min-width: 370px) {
+  /* WHEN this media query is true, do these styles. */
+  .navbar h1 {
+    /* color: #eb35f1; */
+    font-size: 26px;
+  }
+  .navbar .links {
+    font-size: 1.2rem;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: left;
+  }
 }
