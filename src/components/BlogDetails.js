@@ -15,6 +15,7 @@ const BlogDetails = () => {
         <article>
           <h2> {data.title} </h2>
           <p>Escrito por: {data.author}</p>
+          <hr />
           <div>
             <p> {data.body} </p>
           </div>

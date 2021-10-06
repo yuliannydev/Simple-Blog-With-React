@@ -9,7 +9,12 @@ const BlogList = ({ blogs, title }) => {
           <Link to={`blogs/${blog.id}`}>
             <h2>{blog.title}</h2>
           </Link>
-          <p>Escrito por {blog.author}</p>
+          <p>
+            Escrito por <em>{blog.author}</em>
+          </p>
+          <div>
+            <p>{blog.body}</p>
+          </div>
         </div>
       ))}
     </div>

@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const Create = () => {
   const [title, settitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("Yulianny Betancourt");
   const [submit, setSubmit] = useState(false);
+  const historyPage = useHistory();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -19,6 +21,7 @@ const Create = () => {
       body: JSON.stringify(blog),
     }).then(() => {
       setSubmit(false);
+      historyPage.push("/");
     });
   };
   return (

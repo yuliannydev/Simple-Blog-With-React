@@ -53,7 +53,9 @@
 .blog-preview a {
   text-decoration: none;
 }
-
+.blog-list h1 {
+  text-align: center;
+}
 /* blog details page*/
 .blog-details h2 {
   font-size: 20px;
@@ -62,8 +64,16 @@
 }
 .blog-details div {
   margin: 20px 0;
+  line-height: 2em;
 }
 
+.blog-details article hr {
+  margin-top: 10px;
+}
+
+.blog-preview div {
+  padding-top: 10px;
+}
 /* create blog */
 
 .create {

@@ -19,52 +19,10 @@
       "id": 3
     },
     {
-      "title": "ddd",
-      "body": "dddd",
-      "author": "Yulianny Betancourt",
-      "id": 4
-    },
-    {
-      "title": "Nueva entrada",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "title": "Lorem ipsum",
+      "body": "Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. ",
       "author": "Constribuidor(a)",
-      "id": 5
-    },
-    {
-      "title": "Otra entrada de prueba",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "author": "Yulianny Betancourt",
-      "id": 6
-    },
-    {
-      "title": "ssssd",
-      "body": "fsfsfsdfsd",
-      "author": "Yulianny Betancourt",
-      "id": 7
-    },
-    {
-      "title": "ssssdsssss",
-      "body": "fsfsfsdfsdsssss",
-      "author": "Yulianny Betancourt",
-      "id": 8
-    },
-    {
-      "title": "ssssdsssss",
-      "body": "fsfsfsdfsdsssss",
-      "author": "Yulianny Betancourt",
-      "id": 9
-    },
-    {
-      "title": "eeeeee",
-      "body": "eeeeee",
-      "author": "Yulianny Betancourt",
-      "id": 10
-    },
-    {
-      "title": "sassassa",
-      "body": "safsafsafsa",
-      "author": "Yulianny Betancourt",
-      "id": 11
+      "id": 4
     }
   ]
 }
