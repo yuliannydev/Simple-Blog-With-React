@@ -15,7 +15,7 @@ const Navbar = () => {
             backgroundColor: "#00ae42",
             borderRadius: "9px",
             textAlign: "center",
-            marginRight: "-175px",
+            /* marginRight: "-175px", */
           }}
         >
           New Post
