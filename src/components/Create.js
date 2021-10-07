@@ -15,7 +15,7 @@ const Create = () => {
 
     setSubmit(true);
 
-    fetch("http://localhost:8080/blogs/", {
+    fetch("https://morning-harbor-33325.herokuapp.com/blogs/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),
